@@ -353,7 +353,13 @@ button {
       
   
     }
-  
+    .main-container {
+      flex-grow: 1;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+    }
     .logo {
       width: 40px;
       display: flex;
