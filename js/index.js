@@ -16,6 +16,7 @@ input.addEventListener("input", function (evt) {
       hasVisibleItems = true; 
     } else  {
       cards.classList.add("d-none");
+      
         
       
     }
@@ -25,15 +26,7 @@ input.addEventListener("input", function (evt) {
   if (!hasVisibleItems) {
     container.innerHTML = "На странице ничего не найдено.";
     
-  } //else if(hasVisibleItems) {
-    
-      //for(let i = 0; i < card.length; i++) {
-    
-        //  let cards = card[i];
-          //cards.classList.remove(`d-none`)
-      //}
-    
-  //}
+  } 
  
   
 });
