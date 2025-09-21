@@ -12,7 +12,9 @@ html{
   height: 100%;
 }
 
-
+.error{
+  text-align: center;
+}
 /* шапка */
 .header {
   
@@ -128,6 +130,7 @@ button {
 }
 
 /* товары */
+
 .main-container {
   flex-grow: 1;
   

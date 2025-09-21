@@ -20,13 +20,16 @@ input.addEventListener("input", function (evt) {
         
       
     }
+    
   }
 
   
   if (!hasVisibleItems) {
-    container.innerHTML = "На странице ничего не найдено.";
+    error.innerHTML = "На странице ничего не найдено.";
     
-  } 
+  } else{
+    error.innerHTML = ``;
+  }
  
   
 });
@@ -37,6 +40,7 @@ let prices = [ 200, 1500, 25000, 1200, 3000, 5000];
 let available = [false, true, true, true, true, false];
 // контайнер товаров
 let container = document.querySelector(`.good-container`);
+let error = document.querySelector(`.error`);
 
 let card = document.querySelectorAll(`.cards`);
 let titleArr = document.querySelectorAll(`.good-title`);
