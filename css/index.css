@@ -140,7 +140,7 @@ button {
   flex: 1;
   max-width: 1000px;
   margin: auto;
-  padding: 40px 0px;
+  padding: 40px 30px;
   display: flex;
   justify-content: flex-start;
   gap: 40px;
@@ -153,7 +153,7 @@ button {
   box-sizing: border-box;
   max-width: 400px;
   transition: width 500ms, opacity 500ms;
-  padding: 20px;
+  padding: 30px;
   opacity: 1;
   
 }
@@ -329,6 +329,13 @@ button {
 }
 
 @media (max-width: 767px) {
+  .main-container {
+      flex-grow: 1;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 90px;
+    }
 
 .header {
     
@@ -340,6 +347,7 @@ button {
     left: 0;
     z-index: 1;
   }
+  
    
     .text {
       color: white;
@@ -353,13 +361,7 @@ button {
       
   
     }
-    .main-container {
-      flex-grow: 1;
-      margin-left: 10px;
-      display: flex;
-      flex-direction: row;
-      gap: 90px;
-    }
+  
    
    
 .logo-container {
@@ -432,6 +434,7 @@ button {
   background-color: #ededed;
   box-sizing: border-box;
   max-width: 75px;
+  margin-left: -90px;
   transition: width 500ms, opacity 500ms;
   padding: 10px;
   
