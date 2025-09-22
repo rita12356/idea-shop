@@ -2,7 +2,7 @@
 body {
   margin: 0;
   user-select: none;
-  height: 100%;
+  height: 10%;
   display: flex;
   flex-direction: column;
   font-family: "Arial";
@@ -10,6 +10,7 @@ body {
 
 html{
   height: 100%;
+  
 }
 
 .error{
@@ -40,8 +41,10 @@ html{
   
 }
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     
-    margin-top: 4px;
     background: #005bff;
 }
 
@@ -141,7 +144,7 @@ button {
 
 .main-container {
   flex-grow: 1;
-  margin-top: 1px;
+  
   display: flex;
   flex-direction: row;
   gap: 20px;
