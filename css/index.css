@@ -141,7 +141,7 @@ button {
 
 .main-container {
   flex-grow: 1;
-  
+  padding: 10px;
   display: flex;
   flex-direction: row;
   gap: 20px;
