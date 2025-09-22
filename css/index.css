@@ -41,8 +41,16 @@ html{
 }
 .footer {
     
-    margin-top: 9px;
+    margin-top: 4px;
     background: #005bff;
+}
+
+.imga{
+  height: 215px;
+  width: 215px;
+  display: flex;
+  margin: 0 auto;
+  
 }
 
 

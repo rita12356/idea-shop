@@ -26,14 +26,16 @@ input.addEventListener("input", function (evt) {
   
   if (!hasVisibleItems) {
     error.innerHTML = "На странице ничего не найдено.";
-    
+    img.innerHTML = `<img src="assets/error.png" alt="error">`;
   } else{
     error.innerHTML = ``;
+    img.innerHTML = ``;
   }
  
   
 });
-   
+
+  input.value = ``; 
 
 
 let prices = [ 200, 1500, 25000, 1200, 3000, 5000];
@@ -41,6 +43,7 @@ let available = [false, true, true, true, true, false];
 // контайнер товаров
 let container = document.querySelector(`.good-container`);
 let error = document.querySelector(`.error`);
+let img = document.querySelector(`.imga`);
 
 let card = document.querySelectorAll(`.cards`);
 let titleArr = document.querySelectorAll(`.good-title`);
