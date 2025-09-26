@@ -43,7 +43,7 @@ let available = [false, true, true, true, true, false];
 // контайнер товаров
 let container = document.querySelector(`.good-container`);
 let error = document.querySelector(`.error`);
-let img = document.querySelector(`.imga`);
+let img = document.querySelector(`.img`);
 
 let card = document.querySelectorAll(`.cards`);
 let titleArr = document.querySelectorAll(`.good-title`);

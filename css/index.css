@@ -41,19 +41,16 @@ html{
   
 }
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
   
     background: #005bff;
 }
 
-.imga{
-  height: 215px;
-  width: 215px;
-  display: flex;
-  margin: 0 auto;
-  
+.img{
+ display: block;
+ margin: 0 auto;
 }
 
 
