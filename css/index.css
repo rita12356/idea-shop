@@ -168,6 +168,7 @@ button {
   max-width: 400px;
   transition: width 500ms, opacity 500ms;
   padding: 30px;
+  margin-bottom: 90px;
   opacity: 1;
   
 }
