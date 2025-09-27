@@ -1,17 +1,15 @@
 /* базовые стили */
 body {
   margin: 0;
+  
   user-select: none;
-  height: 10%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: "Arial";
 }
 
-html{
-  height: 100%;
-  
-}
+
 
 .error{
   text-align: center;
@@ -41,12 +39,10 @@ html{
   
 }
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  
+   
     background: #005bff;
 }
+
 
 .img{
  display: block;
@@ -341,14 +337,7 @@ button {
 }
 
 @media (max-width: 767px) {
-  .footer {
-    position: absolute;
-    bottom: -600px;
-    width: 100%;
-  
-    background: #005bff;
-}
-
+ 
   .main-container {
       flex-grow: 1;
       margin-left: 10px;
