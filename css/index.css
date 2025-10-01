@@ -463,7 +463,7 @@ button {
 
 }
 .sidebar.hidden {
-  max-width: 90px;
+  max-width: 75px;
   opacity: 0;
 }
 
