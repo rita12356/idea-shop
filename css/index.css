@@ -1,7 +1,6 @@
 /* базовые стили */
 body {
   margin: 0;
-  
   user-select: none;
   min-height: 100vh;
   display: flex;
@@ -167,7 +166,7 @@ button {
 }
 
 .sidebar.hidden {
-  width: 0;
+  max-width: 400px;
   opacity: 0;
 }
 .sidebar-list {
@@ -312,6 +311,7 @@ button {
       gap: 94px;
   
     }
+    
   
     .order-button {
       height: 50px;
@@ -462,7 +462,10 @@ button {
   gap: 10px;
 
 }
-
+.sidebar.hidden {
+  max-width: 90px;
+  opacity: 0;
+}
 
 
 .order-button {
