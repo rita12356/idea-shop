@@ -26,7 +26,7 @@ input.addEventListener("input", function (evt) {
   
   if (!hasVisibleItems) {
     error.innerHTML = "На странице ничего не найдено.";
-    img.innerHTML = `<img src="assets/error.png" alt="error">`;
+    img.innerHTML = `<img src="assets/error.png" alt="Ошибка">`;
   } else{
     error.innerHTML = ``;
     img.innerHTML = ``;
